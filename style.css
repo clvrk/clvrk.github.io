@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background: url(bgs/rainbow2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    height: 60px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 6px 13px;
+    font-weight: bold;
+    color: white;
+    background: rgba(94, 165, 224, 0.774);
+    border: 1px solid rgba(13, 70, 175, 0.568);
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .5s';
+}
+.button:hover {
+    background: rgba(13, 70, 175, 0.486);
+    border-radius: 25px;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background:rgba(94, 165, 224, 0.774);
+    border: 1px solid rgba(13, 70, 175, 0.568);
+}
+.logo {
+    width: 90px;
+    height: auto;
+    padding: -1px 60px;
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    transition: .4s
+}
+.navbar ul li a:hover {
+    background: rgba(13, 70, 175, 0.486);
+    border-radius: 15px;
+}
