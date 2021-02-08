@@ -5,7 +5,7 @@
     margin: 0;
 }
 .wrapper {
-    background: url(bgs/rainbow2.jpg) no-repeat;
+    background: url(bgs/download.png) no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -20,7 +20,7 @@
     height: 60px;
     width: 200px;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     padding: 6px 13px;
     font-weight: bold;
     color: white;
@@ -38,8 +38,7 @@
 .navbar {
     height: 80px;
     width: 100%;
-    background:rgba(94, 165, 224, 0.774);
-    border: 1px solid rgba(13, 70, 175, 0.568);
+    background:rgba(94, 165, 224, 0.883);
 }
 .logo {
     width: 90px;
