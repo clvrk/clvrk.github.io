@@ -102,6 +102,6 @@ span {
     bottom: 0;
 }
 .navbar ul li a:hover {
-    background: rgba(169, 170, 172, 0.322);
+    background: rgba(255, 255, 255, 0.336);
     border-radius: 25px;
 }
