@@ -5,10 +5,7 @@
     margin: 0;
 }
 .wrapper {
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.466), 
-    rgba(0, 0, 0, 0.466)), 
-    url(bgs/download.png);
+    background-image: url(bgs/download.png);
     background-size: cover;
     height: 100vh;
 }
